@@ -24,5 +24,19 @@
 # Be sure to convert your numeric values to numbers before performing math operations!
 
 
+print("""
+      Welcome to Marco Airlines!
+      Marco Airlines offers 3 complementary checked bags on each flight, totalling up to 100lbs.
+      This tool will help you calculate your total baggage.
+      """)
+
+bag_1 = int(input("Please enter the weight in lbs of your first bag."))
+bag_2 = int(input("Please enter the weight in lbs of your second bag."))
+bag_3 = int(input("Please enter the weight in lbs of your final bag."))
+sum_of_bags = bag_1 + bag_2 + bag_3
 
 
+if sum_of_bags <= 100:
+      print(f"Your bags weigh {sum_of_bags}lbs. You're all set to fly! We hope you enjoy your flight!")
+else:
+      print(f"Your bags weigh {sum_of_bags}lbs. Please pay for additional bags or adjust your bags acccordingly. We hope you enjoy your flight!")
