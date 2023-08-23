@@ -23,7 +23,7 @@
 
 # Be sure to convert your numeric values to numbers before performing math operations!
 
-intro_msg = "Please enter the weight to the nearest lb of your "
+
 
 print("""
       Welcome to Marco Airlines!
@@ -32,6 +32,7 @@ print("""
       This tool will help you calculate your total baggage fees.
       """)
 
+intro_msg = "Please enter the weight to the nearest lb of your "
 bag_1 = int(input(f"{intro_msg}first bag."))
 bag_2 = int(input(f"{intro_msg}second bag."))
 bag_3 = int(input(f"{intro_msg}final bag."))
